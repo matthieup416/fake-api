@@ -1331,7 +1331,7 @@ app.get('/products', (req, res) => {
       tags: ['4K', 'Smart TV', 'VisionPlus', 'UltraHD'],
     },
   ]
-  res.json({ products })
+  res.json(products)
 })
 
 // Initialize server
