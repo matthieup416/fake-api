@@ -1743,7 +1743,7 @@ router.get('/products', function (req, res, next) {
       tags: ['4K', 'Smart TV', 'VisionPlus', 'UltraHD'],
     },
   ]
-  res.json({ products })
+  res.send({ products })
 })
 
 module.exports = router
